@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title></title>
+	<script src="js/mui.min.js"></script>
+	<link href="css/mui.min.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script type="text/javascript" charset="utf-8">
+		mui.init();
+	</script>
+</head>
+
+<body>
+	<header class="mui-bar mui-bar-nav" style="height: 5rem;line-height: 5rem;">
+		<a class="mui-action-back  mui-icon mui-icon-undo mui-pull-left ha" style="line-height: 4rem;">返回</a>
+		<h1 class="mui-title h_text">91阅读</h1>
+		<img src="img/information_btn.png" width="33.33%" height="60%" class=" mui-icon  mui-pull-right" style="margin-top: 20px;"></img>
+	</header>
+	<div class="mui-content">
+		<!-- 轮播图 -->
+		<div id="slider" class="mui-slider banner">
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="./img/banner4.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="./img/banner1.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="./img/banner2.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="./img/banner3.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="./img/banner4.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="./img/banner1.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<!-- 历史记录 -->
+		<div id="history" class="mui-bar-nav">
+			<img src="img/lastread_01.png" class="mui-pull-left history_img" style="width:33.33%">
+			<span class=" history_text">《爱的三次方》
+				<br> 第五章-爱你难开口</span>
+			<a href="#" class="mui-pull-right history_continue">继续阅读>></a>
+		</div>
+		<div id="list_icon">
+			<ul>
+				<li>
+					<a href="">
+						<img src="./img/nav_01.png" alt="" />
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/nav_02.png" alt="" />
+					</a>
+
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/nav_03.png" alt="" />
+					</a>
+
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/nav_04.png" alt="" />
+					</a>
+
+				</li>
+				<li>
+					<a href="">
+						<img src="./img/nav_05.png" alt="" />
+					</a>
+
+				</li>
+			</ul>
+		</div>
+		<!-- 搜索框 -->
+		<div id="search">
+			<input type="text" class="search_box">
+			<img src="./img/search_btn_01.png" alt="" class="search_btn">
+		</div>
+
+		<!-- 本期精选 -->
+		<div id="bqjx">
+			<div class="list_box">
+				<img src="./img/container_bg_01.png" alt="" class="s-icon">
+				<img src="./img/listicon_011.png" alt="" class="listicon">
+			</div>
+			<div class="list_book">
+				<ul>
+					<li>
+						<a href="">
+							<img src="./img/book8.jpg" alt="">
+						</a>
+						<h2>猿少宠婚</h2>
+						<span>作者名字</span>
+					</li>
+					<li>
+						<a href="">
+							<img src="./img/book1.jpg" alt="">
+						</a>
+						<h2>春风不及</h2>
+						<span>作者名字</span>
+					</li>
+					<li>
+						<a href="">
+							<img src="./img/book15.jpg" alt="">
+						</a>
+						<h2>燃情代价</h2>
+						<span>作者名字</span>
+					</li>
+				</ul>
+			</div>
+			<div class="list_text">
+				<ul>
+					<li>
+						<h2>[现代言情] 你给我的爱太过荒凉</h2>
+						<a href="">一个精心设计的阴谋，让挪微成为了杜仲某的妻子，他说：“.....</a>
+					</li>
+					<li>
+						<h2>[现代言情] 豪门私宠，帝少的宝贝千金</h2>
+						<a href="">他是卑微的私生女，他是化身夜间最强势的帝王，一次拍戏的.....</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 新书畅销 -->
+		<div id="bqjx">
+			<div class="list_box">
+				<img src="./img/container_bg_01.png" alt="" class="s-icon">
+				<img src="./img/listicon_022.png" alt="" class="listicon">
+			</div>
+			<div class="list_book">
+				<ul>
+					<li>
+						<a href="">
+							<img src="./img/book8.jpg" alt="">
+						</a>
+						<h2>猿少宠婚</h2>
+						<span>作者名字</span>
+					</li>
+					<li>
+						<a href="">
+							<img src="./img/book1.jpg" alt="">
+						</a>
+						<h2>春风不及</h2>
+						<span>作者名字</span>
+					</li>
+					<li>
+						<a href="">
+							<img src="./img/book15.jpg" alt="">
+						</a>
+						<h2>燃情代价</h2>
+						<span>作者名字</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 完本推荐 -->
+		<div class="wbtj">
+			<div class="list_box">
+				<img src="./img/container_bg_01.png" alt="" class="s-icon">
+				<img src="./img/listicon_033.png" alt="" class="listicon">
+			</div>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="./img/book8.jpg">
+						<div class="mui-media-body">
+							<h1>《袁少宠婚不过期限》
+								<h3>作者名字</h3>
+							</h1>
+							<p class='mui-ellipsis'>能和心爱的人一起睡觉,是件幸福的事情；可是，打呼噜怎么办？</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="./img/book15.jpg">
+						<div class="mui-media-body">
+							<h1>《袁少宠婚不过期限》
+								<h3>作者名字</h3>
+							</h1>
+							<p class='mui-ellipsis'>能和心爱的人一起睡觉,是件幸福的事情；可是，打呼噜怎么办？</p>
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a href="javascript:;">
+						<img class="mui-media-object mui-pull-left" src="./img/book1.jpg">
+						<div class="mui-media-body">
+							<h1>《袁少宠婚不过期限》
+								<h3>作者名字</h3>
+							</h1>
+							<p class='mui-ellipsis'>能和心爱的人一起睡觉,是件幸福的事情；可是，打呼噜怎么办？</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+<!-- 限时免费 -->
+<div id="bqjx">
+	<div class="list_box">
+		<img src="./img/container_bg_01.png" alt="" class="s-icon">
+		<img src="./img/listicon_044.png" alt="" class="listicon">
+	</div>
+	<div class="list_book">
+		<ul>
+			<li>
+				<a href="">
+					<img src="./img/book8.jpg" alt="">
+				</a>
+				<h2>猿少宠婚</h2>
+				<span>作者名字</span>
+			</li>
+			<li>
+				<a href="">
+					<img src="./img/book1.jpg" alt="">
+				</a>
+				<h2>春风不及</h2>
+				<span>作者名字</span>
+			</li>
+			<li>
+				<a href="">
+					<img src="./img/book15.jpg" alt="">
+				</a>
+				<h2>燃情代价</h2>
+				<span>作者名字</span>
+			</li>
+		</ul>
+	</div>
+</div>
+</body>
+<script type="text/javascript" charset="utf-8">
+
+	var slider = mui("#slider");
+
+	slider.slider({
+		interval: 2000
+	});
+
+
+</script>
+
+</html>

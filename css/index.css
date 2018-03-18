@@ -1,0 +1,326 @@
+@media only screen and (max-width: 1080px), only screen and (max-device-width: 1080px) {
+  html,
+  body {
+    font-size: 33.75px;
+  }
+}
+@media only screen and (max-width: 960px), only screen and (max-device-width: 960px) {
+  html,
+  body {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+  html,
+  body {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+  html,
+  body {
+    font-size: 22.5px;
+  }
+}
+@media only screen and (max-width: 640px), only screen and (max-device-width: 640px) {
+  html,
+  body {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px), only screen and (max-device-width: 600px) {
+  html,
+  body {
+    font-size: 18.75px;
+  }
+}
+@media only screen and (max-width: 540px), only screen and (max-device-width: 540px) {
+  html,
+  body {
+    font-size: 16.875px;
+  }
+}
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 414px), only screen and (max-device-width: 414px) {
+  html,
+  body {
+    font-size: 12.9375px;
+  }
+}
+@media only screen and (max-width: 400px), only screen and (max-device-width: 400px) {
+  html,
+  body {
+    font-size: 12.5px;
+  }
+}
+@media only screen and (max-width: 375px), only screen and (max-device-width: 375px) {
+  html,
+  body {
+    font-size: 11.71875px;
+  }
+}
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  html,
+  body {
+    font-size: 11.25px;
+  }
+}
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 240px), only screen and (max-device-width: 240px) {
+  html,
+  body {
+    font-size: 7.5px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "微软雅黑";
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+  height: 100rem;
+}
+header {
+  height: 5rem;
+  background-image: url(../img/header_bg.png);
+}
+header .h_text {
+  font-size: 1.5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+header .user {
+  line-height: 7.5rem;
+  float: right;
+}
+.banner {
+  margin-top: 2.3rem;
+}
+.mui-bar .mui-icon {
+  font-size: 1.25rem;
+  color: #fff;
+}
+#history {
+  margin: 0.6rem 0.4rem 0 0.4rem;
+  line-height: 2.5rem;
+  text-align: center;
+  background-color: #fefefe;
+  border-bottom: 1px solid #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+#history .history_img {
+  margin: 1.4rem 0 1rem 0.35rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+#history .history_text {
+  width: 33.33%;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+#history .history_continue {
+  height: 1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+#list_icon {
+  height: 5.3rem;
+  background-color: #fff;
+  margin: 0.6rem 0.4rem;
+}
+#list_icon ul {
+  display: flex;
+  list-style: none;
+  line-height: 6.3rem;
+}
+#list_icon ul li {
+  width: 20%;
+  margin: 0 1rem;
+  padding-top: 0.5rem;
+}
+#list_icon ul img {
+  width: 100%;
+}
+#search {
+  height: 3rem;
+  text-align: center;
+}
+#search .search_box {
+  width: 70%;
+  height: 3rem;
+  border: 1px solid #71a5fc;
+  border-radius: 30px;
+  background: url(../img/search_sign.png) no-repeat;
+  background-color: #fff;
+  margin-left: 1.50rem;
+  float: left;
+  overflow: hidden;
+}
+#search .search_btn {
+  width: 20%;
+  height: 3rem;
+  float: left;
+  overflow: hidden;
+}
+#bqjx {
+  margin: 0.6rem 0.8rem;
+  background-color: #fff;
+  box-shadow: #bdbdbd 0px 1rem 1.5rem -0.3rem;
+}
+#bqjx .list_box {
+  height: 4.8rem;
+}
+#bqjx .list_box .s-icon {
+  width: 5%;
+  float: right;
+}
+#bqjx .list_box .listicon {
+  float: left;
+  width: 25%;
+  margin: 0.8rem;
+}
+#bqjx .list_book ul {
+  list-style: none;
+  display: flex;
+  margin: 0 0.6rem;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#bqjx .list_book ul li {
+  width: 30.33%;
+  margin: 0 0.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+#bqjx .list_book ul li h2 {
+  width: 100%;
+  height: 1.75rem;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+#bqjx .list_book ul li span {
+  width: 100%;
+  display: block;
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+}
+#bqjx .list_book ul li a {
+  width: 100%;
+}
+#bqjx .list_book ul li a img {
+  width: 100%;
+}
+#bqjx .list_text ul {
+  list-style: none;
+  background-color: #fff;
+  margin: 0 0.6rem;
+}
+#bqjx .list_text ul li {
+  height: 6.8rem;
+  border-bottom: 1px solid #ccc;
+  line-height: 4rem;
+  padding-left: 0.6rem;
+}
+#bqjx .list_text ul li h2 {
+  font-size: 1.25rem;
+  width: 80%;
+  color: #333;
+  padding-top: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+#bqjx .list_text ul li a {
+  width: 98%;
+  display: block;
+  color: #888;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+.mui-table-view:before {
+  height: 0;
+}
+.wbtj {
+  margin: 0.9rem 0.8rem;
+  background-color: #fff;
+  box-shadow: #bdbdbd 0px 1rem 1.5rem -0.3rem;
+}
+.wbtj .list_box {
+  height: 4.8rem;
+}
+.wbtj .list_box .s-icon {
+  width: 5%;
+  float: right;
+}
+.wbtj .list_box .listicon {
+  float: left;
+  width: 25%;
+  margin: 0.8rem;
+}
+.wbtj ul li {
+  width: 100%;
+  height: 13.6rem;
+  line-height: 4rem;
+}
+.wbtj ul li a {
+  width: 100%;
+}
+.wbtj ul li a img {
+  max-width: 100% !important;
+  height: 12.5rem !important;
+  display: block;
+}
+.wbtj ul li a h1 {
+  font-size: 1.00rem;
+  display: inline;
+}
+.wbtj ul li a h3 {
+  display: inline;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #888;
+}
+.wbtj ul li a p {
+  color: #888;
+  font-size: 0.75rem;
+  padding-left: 0.75rem;
+  line-height: 1.25rem;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical;
+  /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 2;
+  /** 显示的行数 **/
+  overflow: hidden;
+  /** 隐藏超出的内容 **/
+}
